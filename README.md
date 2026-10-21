@@ -1,1 +1,9 @@
-# smb-despawn-finder
+# Overview
+A Lua script designed to interface with the FCEUX NES emulator running the Super Mario Bros. ROM with the practice ROM patch. When ran, it will immediately jump to Level 8-2 and brute-force certain configurations in the level in order to search for scenarios where a certain enemy (piranha plant) unloads, which allows for a slightly easier traversal of the level in regard to the game's "speedrun".
+
+# Some Context
+Speedrunning refers to the act of completing a video game as quickly as possible. Super Mario Bros. on the NES is one of the most popular games to speedrun, due to being both an icon of video gaming as well as being an interesting game to speedrun. The level 8-2 presents a unique challenge in the context of the game's speedrun - players must carefully jump over a pipe in the middle of the level, which contains a "piranha plant" poking out from the top. If Mario makes contact with the plant, he takes damage and a time loss is incurred. Hence, there is value in seeking out strategies where the difficulty of this jump is eased, as there is no way to avoid having to do it.
+
+In 2018, it was found that the piranha plant in the pipe can very rarely unload under extremely precise conditions. Although a means to remove the problematic piranha plant has been found, it isn't used in any speedruns due to how rare they are - performing the level in such a way as to cause this to happen (as well as playing the level at a very specific time relative to when the game started) has proven to be more difficult than the benefits the strategy provides.
+
+Hence, the goal for this script is to find more viable setups and configurations for allowing this to occur. In the best case scenario, a technique is found that slightly eases the difficulty of the game's speedrun at both low level and high level (world-record contending). However, it may be that such a configuration does not exist. In this case, it would be nice to prove beyond a reasonable doubt that such a setup is not realistically possible, by going through all configurations that can be realistically performed in normal human gameplay.
