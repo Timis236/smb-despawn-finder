@@ -1,6 +1,8 @@
 # Overview
 A Lua script designed to interface with the FCEUX NES emulator running the Super Mario Bros. ROM with the practice ROM patch. When ran, it will immediately jump to Level 8-2 and brute-force certain configurations in the level in order to search for scenarios where a certain enemy (piranha plant) unloads, which allows for a slightly easier traversal of the level in regard to the game's "speedrun".
 
+I've included additional details in the comments of the script, and I may create a new section here for discussing the nitty-gritty at a later time.
+
 # Some Context
 Speedrunning refers to the act of completing a video game as quickly as possible. Super Mario Bros. on the NES is one of the most popular games to speedrun, due to being both an icon of video gaming as well as being an interesting game to speedrun. The level 8-2 presents a unique challenge in the context of the game's speedrun - players must carefully jump over a pipe in the middle of the level, which contains a "piranha plant" poking out from the top. If Mario makes contact with the plant, he takes damage and a time loss is incurred. Hence, there is value in seeking out strategies where the difficulty of this jump is eased, as there is no way to avoid having to do it.
 
